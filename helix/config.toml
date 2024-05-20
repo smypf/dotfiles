@@ -1,0 +1,10 @@
+theme = "minimal"
+
+[keys.normal]
+"space" = { "'" = "no_op", "space" = "file_picker", f = "no_op", ":" = "command_mode" }
+C-g = "normal_mode"
+C-x = { C-c = ":qa!" }
+C-v = ":clipboard-paste-after"
+C-a = "goto_line_start"
+C-e = "goto_line_end"
+"minus" = "file_picker"

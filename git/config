@@ -1,0 +1,54 @@
+[user]
+    name = "Sasha Yee"
+    email = "yee.sasha@abc.net.au"
+
+[color]
+    ui = "auto"
+
+[core]
+    autocrlf = "input"
+    #pager = "delta --light -- --theme=none"
+    pager = "delta --light"
+	editor = emacs
+	excludesfile = ~/.config/git/global_gitignore
+
+[diff]
+    algorithm = "patience"
+    compactionHeuristic = 1
+
+[help]
+    autocorrect = 1
+
+[delta]
+	line-numbers = true
+	side-by-side = true
+	navigate = true
+	light = true
+	syntax-theme = none
+
+[pager]
+	#blame = true
+[init]
+	defaultBranch = main
+
+[diff]
+	tool = difftastic
+
+[difftool]
+	prompt = false
+
+[difftool "difftastic"]
+	cmd = difft --syntax-highlight off --background light "$LOCAL" "$REMOTE"
+
+[pager]
+        difftool = true
+[pull]
+	rebase = true
+[rebase]
+	autoStash = true
+
+[push]
+	default = simple
+	authSetupRemote = true
+[url "https://github.com/"]
+	insteadOf = git://github.com/

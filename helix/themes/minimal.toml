@@ -1,0 +1,54 @@
+"ui.text" = "foreground"
+"ui.background" = { bg = "background" }
+
+"ui.linenr" = { fg = "foreground" }
+"ui.linenr.selected" = { fg = "foreground" }
+"ui.statusline" = { fg = "foreground", bg = "alt-background" }
+"ui.statusline.inactive" = { fg = "alt-foreground", bg = "alt-background" }
+#"ui.popup" = { bg = "alt-background" }
+"ui.window" = { fg = "foreground" }
+#"ui.help" = { bg = "alt-background", fg = "alt-foreground" }
+
+"ui.text.focus" = { fg = "foreground", bg = "light-purple" }
+ 
+"ui.selection" = { bg = "alt-background" }
+"ui.selection.primary" = { bg = "alt-background" }
+"ui.cursor.select" = { bg = "light-purple" }
+"ui.cursor.insert" = { bg = "light-purple"}
+"ui.cursor.match" = { fg = "alt-foreground", bg = "alt-background" }
+"ui.cursor" = { bg = "light-purple" }
+"ui.highlight" = { bg = "alt-background" }
+
+"ui.menu.selected" = { fg = "alt-foreground", bg = "background" }
+#"ui.menu.selected" = { fg = "alt-background", bg = "foreground" }
+#"ui.menu" = { fg = "background", bg = "foreground" }
+
+comment = "light-foreground"
+
+diagnostic = { underline = { style = "curl" } }
+"diagnostic.error" = { underline = { color= "error-colour", style = "curl" } }
+"diagnostic.warning" = { underline = { color = "warning-colour", style = "curl" } }
+"diagnostic.info" = { underline = { color = "info-colour", style = "curl" } }
+"diagnostic.hint" = { underline = { color = "hint-colour", style = "curl" } }
+
+warning = "warning-colour"
+error = "error-colour"
+info = "info-colour"
+hint = "hint-colour"
+
+[palette]
+foreground = "#444444"
+background = "#FFFFF8"
+alt-background = "#ebeadf"
+alt-foreground = "#222222"
+light-foreground = "#CCCCCC"
+light-purple = "#E1C5E8"
+dark-purple = "#8B4D9E"
+
+
+white = "#ffffff"
+hint-colour = "#cccccc"
+info-colour = "#eccdba"
+error-colour = "#f47868"
+warning-colour = "#ffcd1c"
+
